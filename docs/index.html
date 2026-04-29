@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>To-Do List</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>To-Do List</h1>
+
+    <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Enter a task...">
+        <button onclick="addTask()">Add</button>
+        <button class="clear-btn" onclick="clearAll()">Clear All</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<!-- Popup -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <p>Are you sure you want to delete all tasks?</p>
+        <div class="popup-buttons">
+            <button onclick="confirmClear()">Yes</button>
+            <button onclick="closePopup()">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
