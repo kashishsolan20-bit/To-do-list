@@ -10,8 +10,8 @@ A responsive and interactive To-Do List Web Application built using HTML, CSS, a
 * Simple, responsive, and user-friendly interface
 
 ###  Preview
-![To-Do List UI](./images/todo.png)
-  
+<img src="docs/todolist.png" alt="To-Do List UI" width="400"/>
+
 ### Future Scope
 Can be enhanced with cloud storage for cross-device sync, user authentication, reminders/notifications, and priority-based task management.
 
